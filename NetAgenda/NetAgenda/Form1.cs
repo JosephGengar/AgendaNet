@@ -48,7 +48,19 @@ namespace NetAgenda
             Contacto oContacto = new Contacto();
             dgvGrillaDeContactos.DataSource = oContacto.ListarTabla();
 
+            cmbListar.DataSource = oContacto.ListarTabla();
+        }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cmbListar.DisplayMember = "apellido"; 
+            cmbListar.ValueMember = "id";
+        }
+
+        private void btnSeleccion_Click(object sender, EventArgs e)
+        {
+            int idSeleccionado =  (int)cmbListar.SelectedValue;
+            MessageBox.Show("el valor seleccionado es: " + idSeleccionado);
         }
     }
 }

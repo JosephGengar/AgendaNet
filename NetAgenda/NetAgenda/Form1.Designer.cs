@@ -35,6 +35,8 @@
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.dgvGrillaDeContactos = new System.Windows.Forms.DataGridView();
             this.btnListar = new System.Windows.Forms.Button();
+            this.cmbListar = new System.Windows.Forms.ComboBox();
+            this.btnSeleccion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrillaDeContactos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,7 +44,7 @@
             // 
             this.btnAgregar.Location = new System.Drawing.Point(105, 159);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(158, 40);
+            this.btnAgregar.Size = new System.Drawing.Size(158, 43);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Guardar Contacto";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -83,7 +85,7 @@
             // dgvGrillaDeContactos
             // 
             this.dgvGrillaDeContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGrillaDeContactos.Location = new System.Drawing.Point(304, 73);
+            this.dgvGrillaDeContactos.Location = new System.Drawing.Point(304, 50);
             this.dgvGrillaDeContactos.Name = "dgvGrillaDeContactos";
             this.dgvGrillaDeContactos.RowHeadersWidth = 51;
             this.dgvGrillaDeContactos.RowTemplate.Height = 24;
@@ -92,19 +94,39 @@
             // 
             // btnListar
             // 
-            this.btnListar.Location = new System.Drawing.Point(448, 33);
+            this.btnListar.Location = new System.Drawing.Point(105, 270);
             this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(157, 34);
+            this.btnListar.Size = new System.Drawing.Size(157, 43);
             this.btnListar.TabIndex = 6;
             this.btnListar.Text = "Mostrar Contactos";
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            // 
+            // cmbListar
+            // 
+            this.cmbListar.FormattingEnabled = true;
+            this.cmbListar.Location = new System.Drawing.Point(465, 369);
+            this.cmbListar.Name = "cmbListar";
+            this.cmbListar.Size = new System.Drawing.Size(310, 24);
+            this.cmbListar.TabIndex = 7;
+            // 
+            // btnSeleccion
+            // 
+            this.btnSeleccion.Location = new System.Drawing.Point(229, 365);
+            this.btnSeleccion.Name = "btnSeleccion";
+            this.btnSeleccion.Size = new System.Drawing.Size(212, 31);
+            this.btnSeleccion.TabIndex = 8;
+            this.btnSeleccion.Text = "Contacto Seleccionado";
+            this.btnSeleccion.UseVisualStyleBackColor = true;
+            this.btnSeleccion.Click += new System.EventHandler(this.btnSeleccion_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSeleccion);
+            this.Controls.Add(this.cmbListar);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.dgvGrillaDeContactos);
             this.Controls.Add(this.txtApellido);
@@ -114,6 +136,7 @@
             this.Controls.Add(this.btnAgregar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrillaDeContactos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -129,6 +152,8 @@
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.DataGridView dgvGrillaDeContactos;
         private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.ComboBox cmbListar;
+        private System.Windows.Forms.Button btnSeleccion;
     }
 }
 
