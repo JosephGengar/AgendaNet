@@ -1,0 +1,9 @@
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\bin\Debug\NetAgenda.exe.config
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\bin\Debug\NetAgenda.exe
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\bin\Debug\NetAgenda.pdb
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\1-Presentacion.csprojAssemblyReference.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\NetAgenda.Properties.Resources.resources
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\1-Presentacion.csproj.GenerateResource.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\1-Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\NetAgenda.exe
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\NetAgenda\obj\Debug\NetAgenda.pdb

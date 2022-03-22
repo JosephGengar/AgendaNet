@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAgenda", "NetAgenda\NetAgenda.csproj", "{9D9A9281-43FC-4902-8F62-8BD8C291962A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Presentacion", "NetAgenda\1-Presentacion.csproj", "{9D9A9281-43FC-4902-8F62-8BD8C291962A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Logica", "2-Logica\2-Logica.csproj", "{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Datos", "3-Datos\3-Datos.csproj", "{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9D9A9281-43FC-4902-8F62-8BD8C291962A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9A9281-43FC-4902-8F62-8BD8C291962A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9A9281-43FC-4902-8F62-8BD8C291962A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
