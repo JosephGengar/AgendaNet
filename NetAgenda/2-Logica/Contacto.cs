@@ -60,5 +60,10 @@ namespace _2_Logica
             //en lugar de informar al display member, como quiero mas datos sobrescribo el tostring()
             return string.Format("{0} - {1}, {2}", this.codigo, this.apellido, this.nombre);
         }
+
+        /*public string VisualizarContacto
+        {
+            get { return string.Format("{0} - {1}, {2}", this.codigo, this.apellido, this.nombre); }
+        } funcion q podria usar en el combobox.displaymember = "VisualizarContacto" si es q tuviera el toString ocupado */
     }
 }
