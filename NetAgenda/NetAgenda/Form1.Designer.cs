@@ -33,13 +33,16 @@
             this.lblApellido = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
+            this.dgvGrillaDeContactos = new System.Windows.Forms.DataGridView();
+            this.btnListar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGrillaDeContactos)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(140, 188);
+            this.btnAgregar.Location = new System.Drawing.Point(105, 159);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(167, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(158, 40);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Guardar Contacto";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -48,7 +51,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(79, 70);
+            this.lblNombre.Location = new System.Drawing.Point(33, 50);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(66, 17);
             this.lblNombre.TabIndex = 1;
@@ -57,7 +60,7 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(79, 118);
+            this.lblApellido.Location = new System.Drawing.Point(33, 96);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(66, 17);
             this.lblApellido.TabIndex = 2;
@@ -65,23 +68,45 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(151, 70);
+            this.txtNombre.Location = new System.Drawing.Point(107, 50);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(156, 22);
             this.txtNombre.TabIndex = 3;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(149, 118);
+            this.txtApellido.Location = new System.Drawing.Point(105, 96);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(158, 22);
             this.txtApellido.TabIndex = 4;
+            // 
+            // dgvGrillaDeContactos
+            // 
+            this.dgvGrillaDeContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGrillaDeContactos.Location = new System.Drawing.Point(304, 73);
+            this.dgvGrillaDeContactos.Name = "dgvGrillaDeContactos";
+            this.dgvGrillaDeContactos.RowHeadersWidth = 51;
+            this.dgvGrillaDeContactos.RowTemplate.Height = 24;
+            this.dgvGrillaDeContactos.Size = new System.Drawing.Size(471, 278);
+            this.dgvGrillaDeContactos.TabIndex = 5;
+            // 
+            // btnListar
+            // 
+            this.btnListar.Location = new System.Drawing.Point(448, 33);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(157, 34);
+            this.btnListar.TabIndex = 6;
+            this.btnListar.Text = "Mostrar Contactos";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnListar);
+            this.Controls.Add(this.dgvGrillaDeContactos);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblApellido);
@@ -89,6 +114,7 @@
             this.Controls.Add(this.btnAgregar);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGrillaDeContactos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,6 +127,8 @@
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.DataGridView dgvGrillaDeContactos;
+        private System.Windows.Forms.Button btnListar;
     }
 }
 

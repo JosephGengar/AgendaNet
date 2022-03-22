@@ -42,5 +42,13 @@ namespace NetAgenda
             }
            
         }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            Contacto oContacto = new Contacto();
+            dgvGrillaDeContactos.DataSource = oContacto.ListarTabla();
+
+
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using _3_Datos;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 
@@ -21,5 +22,10 @@ namespace _2_Logica
             return oContactoBD.Agregarcontacto(this.nombre, this.apellido);
         }
 
+        public DataTable ListarTabla()
+        {
+            ContactoBD oContacto = new ContactoBD();
+            return oContacto.listar();
+        }
     }
 }

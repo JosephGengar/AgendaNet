@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,12 @@ namespace _3_Datos
             {
                 return false;
             }           
+        }
+        public DataTable listar()
+        {
+            Conexion oConexion = new Conexion();
+            string query = "SELECT * FROM tContacto";
+            return oConexion.LeerPorComando(query);
         }
     }
 }
