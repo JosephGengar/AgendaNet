@@ -1,0 +1,6 @@
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\obj\Debug\3-Datos.csprojAssemblyReference.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\obj\Debug\3-Datos.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\bin\Debug\3-Datos.dll
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\bin\Debug\3-Datos.pdb
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\obj\Debug\3-Datos.dll
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\3-Datos\obj\Debug\3-Datos.pdb

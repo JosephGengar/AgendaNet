@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Presentacion", "NetAgenda\1-Presentacion.csproj", "{9D9A9281-43FC-4902-8F62-8BD8C291962A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C4F7216-E74A-42E7-81AB-B12E272AFBBE} = {9C4F7216-E74A-42E7-81AB-B12E272AFBBE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Logica", "2-Logica\2-Logica.csproj", "{9C4F7216-E74A-42E7-81AB-B12E272AFBBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8E9A672-2883-4A42-95DE-DDB2BD8E7772} = {A8E9A672-2883-4A42-95DE-DDB2BD8E7772}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Datos", "3-Datos\3-Datos.csproj", "{A8E9A672-2883-4A42-95DE-DDB2BD8E7772}"
 EndProject

@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3-Datos\3-Datos.csproj">
+      <Project>{a8e9a672-2883-4a42-95de-ddb2bd8e7772}</Project>
+      <Name>3-Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

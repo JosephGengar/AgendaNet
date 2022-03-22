@@ -1,0 +1,9 @@
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\obj\Debug\2-Logica.csprojAssemblyReference.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\obj\Debug\2-Logica.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\bin\Debug\2-Logica.dll
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\bin\Debug\2-Logica.pdb
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\bin\Debug\3-Datos.dll
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\bin\Debug\3-Datos.pdb
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\obj\Debug\2-Logica.csproj.CopyComplete
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\obj\Debug\2-Logica.dll
+C:\Users\José\Desktop\ProyAGitHub\NetAgendaCSharp\NetAgenda\2-Logica\obj\Debug\2-Logica.pdb

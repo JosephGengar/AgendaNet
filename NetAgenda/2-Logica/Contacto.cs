@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3_Datos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,11 @@ namespace _2_Logica
         {
             get { return _numerosDeContacto; }
             set { _numerosDeContacto = value; }
+        }
+        public bool Guardar()
+        {
+            ContactoBD oContactoBD = new ContactoBD();
+            return oContactoBD.Agregarcontacto(this.nombre, this.apellido);
         }
 
     }
