@@ -3,7 +3,7 @@ Agenda desarrollada en Net framework con arquitectura 3 capas
 
 Aplicacion de Escritorio simple de una agenda de contactos, en la cual se desarrolla la arquitectura en capas, la capa de presentacion hecha con Windows Forms
 permite el ingreso de datos por parte del usuario, la capa de datos es una libreria de clases que tiene la conexion, con sus respectivos metodos y propiedades 
-para la conexiona base de datos con Sql Server, y la capa logica es otra libreria de clases que se encarga de conectar la capa mas externa con la capa mas interna 
+para la conexion a base de datos con Sql Server, y la capa logica es otra libreria de clases que se encarga de conectar la capa mas externa con la capa mas interna 
 del proyecto.
 
 Tecnologias utilizadas: Visual Studio, Lenguaje C#, Windows Forms, Sql Server, modelo de arquitectura 3 capas.
